@@ -1,0 +1,72 @@
+#creditos {
+    width: 752px;
+}
+
+.credito {
+    display: flex;
+    padding: 11px 19px;
+    justify-content: space-between;
+    border-bottom: 1px solid #CCCCCC;
+    margin-left: 1px;
+    margin-right: 1px;
+    cursor: pointer;
+}
+
+.header-creditos {
+    height: 33px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #CCCCCC;
+    margin-left: 1px;
+    margin-right: 1px;
+    p {
+        font-weight: bold;
+        font-size: 16px;
+        color: #222222;
+    }
+}
+
+#car-data-1 {
+    text-align: left;
+    line-height: 25px;
+}
+
+#car-data-2 {
+    line-height: 25px;
+}
+
+#car-data-3 {
+    line-height: 25px;
+}
+
+#car-icon-detail {
+    align-self: center;
+    mat-icon {
+        color: #EC0000;
+        cursor: pointer;
+    }
+}
+
+.contextual-message {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    /* width: 752px; */
+    border-radius: 4px;
+    background-color: #E2EFF4;
+    margin-top: 16px;
+    margin-bottom: 36px;
+    padding: 0px 16px;
+    text-align: left;
+    p {
+        color: #444444;
+        font-size: 14px;
+        padding-left: 16px;
+        letter-spacing: 0.1px;
+    }
+    .icon {
+        color: turquoise;
+    }
+}

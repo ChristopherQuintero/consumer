@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>84F0243C-41A8-42E9-9A86-3011EC4E0B54</title>
+    <defs>
+        <filter color-interpolation-filters="auto" id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+        <path d="M31.5151313,18.449873 L25.2524553,7.61875468 C24.7749109,6.79273132 24.4449179,5.9076683 24.2616773,5 L24.0001332,5.4526374 C22.4500449,8.13362307 22.4500449,11.4361209 23.9998668,14.1171065 L29.0102207,22.7823735 C30.5600426,25.4630932 30.5600426,28.7661229 29.0102207,31.4471086 L28.7484103,31.899746 C28.5651696,30.9920777 28.2351766,30.1070146 27.7576323,29.2809913 L20.2423677,16.2834898 C19.7648234,15.4574664 19.4350967,14.5724034 19.2515897,13.6647351 L18.9900456,14.1173725 C17.4452841,16.789316 17.4404901,20.0787825 18.9748643,22.7549812 L24.0001332,31.4471086 C25.5502214,34.1278283 25.5502214,37.430858 24.0001332,40.1118436 L23.7383227,40.564481 C23.5550821,39.6568127 23.2250891,38.7717497 22.7475447,37.9459923 L16.485135,27.114608 C15.6451044,25.6620196 15.261311,24.0267274 15.3316243,22.406594 C8.62735959,24.1557105 4,27.8693583 4,32.1691476 C4,38.1507695 12.9542897,43 24.0001332,43 C35.0457103,43 44,38.1507695 44,32.1691476 C44,27.8690924 39.3731731,24.1543807 32.6683757,22.4055302 C32.6089823,21.0361824 32.2251889,19.6777384 31.5151313,18.449873 Z" id="path-2"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="07-Historico" transform="translate(-75.000000, -1228.000000)">
+            <g id="footer-copy-6" transform="translate(0.000000, 1153.000000)">
+                <g id="Navigation/Footer/a.-desktop/1.-top-(links)/3-columns" transform="translate(75.000000, 58.000000)">
+                    <g id="Group-15" transform="translate(0.000000, 5.000000)">
+                        <g id="A.-Finance/a.-Brand/AA010-santander-|-Bank,-branch,-Santander,-brand,-logo,-isotype,-logotype,-marca,-banco,-logotipo,-isotipo,-flame,-llama" transform="translate(0.000000, 12.000000)" filter="url(#filter-1)">
+                            <g>
+                                <mask id="mask-3" fill="white">
+                                    <use xlink:href="#path-2"></use>
+                                </mask>
+                                <use id="icon-color" fill="#EC0000" fill-rule="nonzero" xlink:href="#path-2"></use>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

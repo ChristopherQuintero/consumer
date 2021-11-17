@@ -1,0 +1,79 @@
+/* You can add global styles to this file, and also import other style files */
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+html,
+body {
+    height: 100%;
+    background-color: #F9FCFD;
+}
+
+.mat-tab-header {
+    box-shadow: 2px 5px 5px rgb(225, 225, 226);
+    border-radius: 4px;
+    color: #767676;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.mat-tab-group.mat-primary .mat-ink-bar,
+.mat-tab-nav-bar.mat-primary .mat-ink-bar {
+    background-color: #EC0000;
+    height: 4px;
+}
+
+.mat-tab-label {
+    flex-basis: 100%;
+    color: #767676;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.mat-tab-label-active {
+    color: #EC0000;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.mat-expansion-panel-body {
+    padding: 0px !important;
+    border-top: 1px solid rgb(225, 225, 226);
+}
+
+th.mat-header-cell,
+td.mat-cell,
+td.mat-footer-cell {
+    text-align: left;
+}
+
+th.mat-header-cell:last-of-type,
+td.mat-cell:last-of-type,
+td.mat-footer-cell:last-of-type {
+    text-align: end;
+}
+
+th.mat-header-cell:first-of-type,
+td.mat-cell:first-of-type,
+td.mat-footer-cell:first-of-type {
+    font-weight: bolder;
+}
+
+.mat-sort-header-content {
+    font-weight: bolder;
+    font-size: 14px;
+    color: #444444;
+}
+
+.mat-step-header .mat-step-icon-selected,
+.mat-step-header .mat-step-icon-state-done,
+.mat-step-header .mat-step-icon-state-edit {
+    background-color: #63BA68;
+}
+
+.mat-stepper-horizontal-line {
+    border-top-width: 4px !important;
+}

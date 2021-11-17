@@ -1,0 +1,213 @@
+<div class="contenedor-detalle">
+    <div class="breadcrumb">
+        <p><span routerLink="/" class="back">Home</span>&nbsp;>&nbsp;<span class="credito">Crédito Toyota Rav4 2021</span></p>
+    </div>
+    <div class="contextual-message">
+        <mat-icon class="icon">info_outline</mat-icon>
+        <p><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+    <!-- COMPRA INTELIGENTE -->
+    <div class="compra-inteligente">
+        <mat-card class="credito">
+            <div class="card-header">
+                <mat-icon class="icon">sentiment_satisfied_alt</mat-icon>
+                <p>Compra inteligente</p>
+            </div>
+            <div class="card-body">
+                <div id="car-data-1">
+                    <p><strong>Toyota Rav4 2021</strong></p>
+                    <p>Patente: BB-BB 21</p>
+                    <p>Operación Nº: 0 00* ** *2345 6</p>
+                </div>
+                <div id="car-data-2">
+                    <p>Cuota 12/36</p>
+                    <p class="monto"><strong>$299.900</strong></p>
+                    <p>36 (Cuotas)</p>
+                </div>
+                <div id="car-data-3">
+                    <p>
+                        <span>VFMG (Cuota Nº 37)</span>
+                        <mat-icon class="icon" matTooltip="Valor final mínimo garantizado">info</mat-icon>
+                    </p>
+                    <p><strong>$5.000.000</strong></p>
+                </div>
+            </div>
+
+        </mat-card>
+    </div>
+    <!-- FIN -->
+    <!-- DETALLE VEHICULO -->
+    <div class="detalle-vehiculo">
+        <mat-card class="detalle">
+            <div class="card-header">
+                <p>Detalles del vehículo</p>
+            </div>
+            <div class="card-body">
+                <p><span class="sideA">Patente</span><span class="sideB">BB - BB 21</span></p>
+                <p><span class="sideA">Valor vehículo</span><span class="sideB">$99.999</span></p>
+                <p><span class="sideA">Concesionario</span><span class="sideB">Bruno Fritsch, Vitacura 5500, Vitacura</span></p>
+                <p><span class="sideA">Dealer / Sucursal</span><span class="sideB">Bruno Fritsch, Vitacura 5500, Vitacura</span></p>
+            </div>
+        </mat-card>
+    </div>
+    <!-- FIN -->
+    <!-- ESTADO ALZAMIENTO-->
+    <div class="estado-alzamiento">
+        <mat-card class="detalle">
+            <div class="card-header">
+                <p>Estado de Alzamiento</p>
+            </div>
+            <div class="card-body">
+                <!-- <mat-horizontal-stepper>
+                    <mat-step>
+                        <p>Pago última cuota</p>
+                    </mat-step>
+                    <mat-step>
+                        <p>Alzamiento en tramite</p>
+                    </mat-step>
+                    <mat-step>
+                        <p>Alzamiento finalizado</p>
+                    </mat-step>
+
+                 <ng-template matStepperIcon="phone">
+                        <mat-icon>call_end</mat-icon>
+                    </ng-template>
+                    <ng-template matStepperIcon="chat">
+                        <mat-icon>forum</mat-icon>
+                    </ng-template>
+                </mat-horizontal-stepper> -->
+                <div class="custom-stepper-1">
+                    <div class="step">
+                        <mat-icon class="step-icon" style="align-self: flex-start;">done</mat-icon>
+                        <span>Pago última cuota</span>
+                    </div>
+                    <div class="horizontalLine1">
+                        <mat-divider></mat-divider>
+                    </div>
+                    <div class="step">
+                        <mat-icon class="step-icon" style="align-self: center;">done</mat-icon>
+                        <span>Alzamiento en tramite</span>
+                    </div>
+                    <div class="horizontalLine2">
+                        <mat-divider style="border-top-color: #CCCCCC;"></mat-divider>
+                    </div>
+                    <div class="step">
+                        <mat-icon class="step-icon disabled" style="align-self: flex-end;">done</mat-icon>
+                        <span>Alzamiento finalizado</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card-footer">
+                <button disabled="true"><mat-icon>save_alt</mat-icon><p>Descargar cupón de pago</p></button>
+            </div>
+        </mat-card>
+    </div>
+    <!-- FIN -->
+    <!-- DETALLE CREDITO -->
+    <div class="detalle-credito">
+        <mat-card class="detalle">
+            <div class="card-header">
+                <p>Detalles del crédito</p>
+            </div>
+            <div class="card-body">
+                <p><span class="sideA">Número de operación</span><span class="sideB">00000000000000000000000</span></p>
+                <p><span class="sideA">Producto</span><span class="sideB">Compra inteligente</span></p>
+                <p><span class="sideA">Pié inicial</span><span class="sideB">$10.000.000,00</span></p>
+                <p><span class="sideA">Monto líquido del crédito</span><span class="sideB">$40.000.000,00</span></p>
+                <p><span class="sideA">Monto financiado</span><span class="sideB">$30.000.000,00</span></p>
+                <p><span class="sideA">Plazo del crédito</span><span class="sideB">24 meses</span></p>
+                <p><span class="sideA">Valor de la cuota</span><span class="sideB">$299.000,00</span></p>
+                <p><span class="sideA">Valor de la última cuota</span><span class="sideB">$299.000,00</span></p>
+                <p><span class="sideA">Fecha de curse</span><span class="sideB">01-12-2022</span></p>
+            </div>
+        </mat-card>
+    </div>
+    <!-- FIN -->
+    <!-- PRODUCTOS ASOCIADOS -->
+    <div class="productos-asociados">
+        <mat-card class="detalle">
+            <div class="card-header">
+                <p>Productos asociados</p>
+            </div>
+            <div class="card-body">
+                <div class="producto">
+                    <div class="sideA">
+                        <mat-icon class="iconA">description</mat-icon>
+                        <span class="textProducto">Seguro desgravamen: Zurich-Santander</span>
+                    </div>
+                    <div class="sideB">
+                        <mat-icon class="iconB">save_alt</mat-icon>
+                    </div>
+                </div>
+                <div class="producto">
+                    <div class="sideA">
+                        <mat-icon class="iconA">attach_money</mat-icon>
+                        <span class="textProducto">Seguro cesantias: Zurich-Santander</span>
+                    </div>
+                    <div class="sideB">
+                        <mat-icon class="iconB">save_alt</mat-icon>
+                    </div>
+                </div>
+                <div class="producto">
+                    <div class="sideA">
+                        <mat-icon class="iconA">person_outline</mat-icon>
+                        <span class="textProducto">Seguro robo contenido: Chilena consolidada</span>
+                    </div>
+                    <div class="sideB">
+                        <mat-icon class="iconB">save_alt</mat-icon>
+                    </div>
+                </div>
+                <div class="producto">
+                    <div class="sideA">
+                        <mat-icon class="iconA">directions_car</mat-icon>
+                        <span class="textProducto">Mantenciones prepagadas: SKBergé</span>
+                    </div>
+                    <div class="sideB">
+                        <mat-icon class="iconB">save_alt</mat-icon>
+                    </div>
+                </div>
+            </div>
+        </mat-card>
+    </div>
+    <!-- FIN -->
+    <!-- ESTADO PAC -->
+    <div class="estado-pac">
+        <mat-card class="detalle">
+            <div class="card-header">
+                <div class="estadoHeader">
+                    <p>Estado PAC</p>
+                </div>
+                <div class="estadoPac">
+                    <p class="estado"></p>
+                    <p class="estadoText">No activo</p>
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="contextual-message-inside">
+                    <mat-icon class="icon">info_outline</mat-icon>
+                    <p>Si tienes cuenta corriente, cuenta rut, o cuenta vista activa tu descuento de pago automático en la pagina web de tu banco.<br>Aplica para los bancos: banco 1, banco 2, banco 3 y banco 4.<br>Si no perteneces a estas instituciones financieras,
+                        puedes descargar en Mandato PAC y enviarlo de forma física a Moneda 1025 Piso 1.
+                    </p>
+                </div>
+            </div>
+        </mat-card>
+    </div>
+    <!-- FIN -->
+    <!--  -->
+    <!-- <div style="margin-top: 16px; border: 1px solid gray; border-radius: 5px; padding: 10px">
+        <p>prueba</p>
+        <button mat-button (click)="openSnackSuccessBar()" style="border: 1px solid green;">Success</button>
+        <br>
+        <button mat-button (click)="openSnackErrorBar()" style="border: 1px solid red;">Error</button>
+    </div> -->
+    <!--  -->
+    <div id="campaña">
+        <img src="../../assets/campaña.PNG" alt="">
+    </div>
+    <div class="informativo">
+        <p>Infórmese sobre la garantía estatal de los depósitos en su banco o en www.cmfchile.cl / Infórmese sobre las entidades autorizadas para emitir Tarjetas de Pago en el país, quienes se encuentran inscritas en los Registros de Emisores de Tarjetas
+            que lleva la CMF, en www.cmfchile.cl.
+        </p>
+    </div>
+
+</div>

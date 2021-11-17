@@ -1,0 +1,329 @@
+.contenedor-detalle {
+    display: flex;
+    flex-direction: column;
+    width: 752px;
+    align-items: center;
+    margin: 16px auto;
+}
+
+.informativo {
+    color: #444444;
+    font-size: 12px;
+    margin-top: 48px;
+    padding: 17px 0px;
+    border-top: 1px solid #979797;
+    text-align: justify;
+}
+
+#campaña {
+    height: 90px;
+    margin-top: 16px;
+    margin-bottom: 5px;
+    img {
+        width: 100%;
+    }
+}
+
+.breadcrumb {
+    color: #767676;
+    font-size: 12px;
+    align-self: flex-start;
+    .back {
+        cursor: pointer;
+    }
+    .back:hover {
+        text-decoration: underline;
+    }
+    .credito {
+        color: #444444;
+    }
+}
+
+.contextual-message {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    /* width: 752px; */
+    border-radius: 4px;
+    background-color: #E2EFF4;
+    margin-top: 16px;
+    margin-bottom: 36px;
+    padding: 0px 16px;
+    text-align: left;
+    p {
+        color: #444444;
+        font-size: 14px;
+        padding-left: 16px;
+        letter-spacing: 0.1px;
+    }
+    .icon {
+        color: turquoise;
+    }
+}
+
+.compra-inteligente {
+    mat-card {
+        padding: 0;
+    }
+    width: 100%;
+    background-position: #FFFFFF;
+    margin-bottom: 16px;
+    /* box-shadow: 1px 0px 10px 1px rgba(225, 225, 226, 0.8); */
+    .credito {
+        display: flex;
+        flex-direction: column;
+        /* padding: 35px 45px; */
+        color: #444444;
+        .card-header {
+            display: flex;
+            flex-direction: row;
+            height: 65px;
+            border-bottom: 1px solid #CCCCCC;
+            align-items: center;
+            padding-left: 16px;
+            p {
+                color: #444444;
+                font-size: 16px;
+                font-weight: bolder;
+            }
+            .icon {
+                color: #EC0000;
+                margin-right: 10px;
+            }
+        }
+        .card-body {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            padding: 35px 45px;
+            #car-data-1 {
+                text-align: left;
+                line-height: 27px;
+            }
+            #car-data-2 {
+                line-height: 27px;
+                .monto {
+                    color: #1BB3BC;
+                    font-size: 24px;
+                }
+            }
+            #car-data-3 {
+                line-height: 27px;
+                p {
+                    display: flex;
+                    .icon {
+                        color: #1BB3BC;
+                        margin-left: 5px;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.detalle-vehiculo,
+.detalle-credito,
+.productos-asociados,
+.estado-pac,
+.estado-alzamiento {
+    mat-card {
+        padding: 0;
+    }
+    width: 100%;
+    background-position: #FFFFFF;
+    margin-bottom: 16px;
+    /* box-shadow: 1px 0px 10px 1px rgba(225, 225, 226, 0.8); */
+    .detalle {
+        display: flex;
+        flex-direction: column;
+        color: #444444;
+        .card-header {
+            display: flex;
+            flex-direction: row;
+            height: 65px;
+            border-bottom: 1px solid #CCCCCC;
+            align-items: center;
+            padding-left: 16px;
+            justify-content: space-between;
+            p {
+                color: #444444;
+                font-size: 16px;
+                font-weight: bolder;
+            }
+            .estadoPac {
+                display: flex;
+                flex-direction: row;
+                margin-right: 50px;
+                .estado {
+                    background-color: #D8D8D8;
+                    width: 15px;
+                    border-radius: 50%;
+                    margin-right: 10px;
+                }
+                .estadoText {
+                    font-weight: normal;
+                }
+            }
+        }
+        .card-body {
+            display: flex;
+            flex-direction: column;
+            padding: 0px;
+            font-size: 14px;
+            color: #444444;
+            p {
+                display: flex;
+                flex-direction: row;
+                border-bottom: 1px solid #CCCCCC;
+                padding: 15px 20px;
+                .sideA {
+                    flex-basis: 50%;
+                }
+                .sideB {
+                    flex-basis: 50%;
+                    font-weight: bolder;
+                }
+            }
+            .producto {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                border-bottom: 1px solid #CCCCCC;
+                line-height: 28px;
+                padding: 10px 15px;
+                .sideA {
+                    display: flex;
+                    flex-direction: row;
+                }
+                .sideB {
+                    display: flex;
+                    flex-direction: row;
+                }
+                .iconA {
+                    color: #EC0000;
+                    margin-right: 10px;
+                }
+                .textProducto {
+                    font-size: 14px;
+                    color: #444444;
+                }
+                .iconB {
+                    margin-right: 32px;
+                    color: #EC0000;
+                }
+            }
+            .contextual-message-inside {
+                display: inline-flex;
+                justify-content: center;
+                align-items: center;
+                height: 120px;
+                /* width: 752px; */
+                border-radius: 4px;
+                background-color: #E2EFF4;
+                margin: 24px 16px;
+                padding: 0px 16px;
+                text-align: left;
+                p {
+                    color: #444444;
+                    font-size: 14px;
+                    padding-left: 16px;
+                    letter-spacing: 0.1px;
+                    border-bottom: none;
+                }
+                .icon {
+                    color: turquoise;
+                }
+            }
+        }
+        .card-footer {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            height: 40px;
+            border-top: 1px solid #CCCCCC;
+            button {
+                display: flex;
+                flex-direction: row;
+                border: none;
+                background: transparent;
+                align-items: center;
+                color: #EC0000;
+                mat-icon {
+                    margin-right: 5px;
+                }
+                p {
+                    font-size: 14px;
+                }
+            }
+            button:disabled,
+            button[disabled] {
+                color: #A2A2A2;
+            }
+        }
+    }
+}
+
+.mat-stepper-horizontal {
+    p {
+        border-bottom: none !important;
+        padding: 0px !important;
+    }
+}
+
+.mat-form-field {
+    margin-top: 16px;
+}
+
+.custom-stepper-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 15px;
+    .step {
+        display: flex;
+        flex-direction: column;
+        span {
+            font-size: 14px;
+            margin-top: 25px;
+            color: #444444;
+        }
+        .step-icon {
+            background-color: #63BA68;
+            color: whitesmoke;
+            border-radius: 50%;
+            padding: 5px;
+        }
+        .disabled {
+            border: 1px solid #CCCCCC;
+            background-color: transparent;
+            color: #CCCCCC;
+        }
+    }
+    .horizontalLine1 {
+        position: absolute;
+        left: 130px;
+        width: 30%;
+        bottom: 55%;
+    }
+    .horizontalLine2 {
+        position: absolute;
+        left: 384px;
+        width: 30.8%;
+        bottom: 55%;
+    }
+}
+
+
+/*  */
+
+.mat-divider {
+    border-top-width: 5px;
+}
+
+.mat-card .mat-divider-horizontal {
+    border-top-color: rgb(99, 186, 104);
+}

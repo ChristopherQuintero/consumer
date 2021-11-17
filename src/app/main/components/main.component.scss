@@ -1,0 +1,39 @@
+#layout {
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background: rgb(249, 252, 253);
+    align-items: center;
+    max-width: 752px;
+    margin: 0 auto;
+    margin-top: 0px;
+    width: 752px;
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+#layout p {
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: normal;
+    color: #444;
+}
+
+.informativo {
+    color: #444444;
+    font-size: 12px;
+    margin-top: 48px;
+    padding: 17px 0px;
+    border-top: 1px solid #979797;
+    text-align: justify;
+}
+
+#campaña {
+    height: 90px;
+    margin-top: 16px;
+    margin-bottom: 5px;
+    img {
+        width: 100%;
+    }
+}

@@ -1,0 +1,72 @@
+.historico {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.mat-expansion-panel-header {
+    padding: 17px 19px !important;
+}
+
+.mat-expansion-panel-body {
+    padding: 0 !important;
+}
+
+.mat-accordion {
+    margin: 0px 1px 16px 1px !important;
+}
+
+.historico-info {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.historico-info1 {
+    line-height: 22px;
+    text-align: left;
+}
+
+.historico-info2 {
+    line-height: 22px;
+    text-align: left;
+    margin-right: 40px;
+}
+
+table {
+    width: 100%;
+}
+
+th.mat-sort-header-sorted {
+    color: black;
+}
+
+.mat-expansion-panel-body {
+    padding: 0px;
+    border: 1px solid #e0e0e0;
+}
+
+.icons-santander {
+    color: #EC0000;
+    cursor: pointer;
+}
+
+.download-box {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    color: #EC0000;
+    box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2), 0px 8px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12);
+}
+
+.download-box mat-icon {
+    font-size: 24px;
+    margin-right: 4px;
+    cursor: pointer;
+}
+
+.download-box p {
+    font-size: 14px;
+    line-height: 24px;
+}

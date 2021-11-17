@@ -1,0 +1,212 @@
+<div class="historico">
+    <mat-accordion>
+        <mat-expansion-panel>
+            <mat-expansion-panel-header>
+                <mat-panel-title>
+                    <div class="historico-info">
+                        <div class="historico-info1">
+                            <p><strong>Toyota Rav4 2021</strong></p>
+                            <p>Patente: BB-BB 21</p>
+                        </div>
+                        <div class="historico-info2">
+                            <p>Última cuota pagada</p>
+                            <p>01/09/2021</p>
+                        </div>
+                    </div>
+
+                </mat-panel-title>
+                <!-- <mat-panel-description>
+                    Currently I am Chris
+                </mat-panel-description> -->
+            </mat-expansion-panel-header>
+            <div class="historico-table">
+                <table mat-table [dataSource]="dataSource" matSort>
+
+                    <!-- N Cuotas Column -->
+                    <ng-container matColumnDef="numCuota">
+                        <th mat-header-cell *matHeaderCellDef mat-sort-header> N° Cuota</th>
+                        <td mat-cell *matCellDef="let element"> {{element.numCuota}} </td>
+                    </ng-container>
+
+                    <!-- Fecha de pago Column -->
+                    <ng-container matColumnDef="fechaPago">
+                        <th mat-header-cell *matHeaderCellDef mat-sort-header> Fecha de Pago </th>
+                        <td mat-cell *matCellDef="let element"> {{element.fechaPago}} </td>
+                    </ng-container>
+
+                    <!-- Monto Pagado Column -->
+                    <ng-container matColumnDef="monto">
+                        <th mat-header-cell *matHeaderCellDef mat-sort-header> Monto pagado </th>
+                        <td mat-cell *matCellDef="let element"> ${{element.monto}} </td>
+                    </ng-container>
+
+                    <!-- Symbol Column -->
+                    <ng-container matColumnDef="symbol">
+                        <th mat-header-cell *matHeaderCellDef> </th>
+                        <td mat-cell *matCellDef="let element">
+                            <mat-icon class="icons-santander" [matMenuTriggerFor]="menu" #menuTrigger>more_vert</mat-icon>
+                            <!-- <button mat-button [matMenuTriggerFor]="menu" #menuTrigger>Menu</button> -->
+                            <mat-menu #menu="matMenu">
+                                <button mat-menu-item (click)="openDialog()">
+                                <mat-icon class="icons-santander">insert_drive_file</mat-icon>
+                                <span style="color: #767676;">Ver cupón</span>
+                              </button>
+                                <button mat-menu-item>
+                                <mat-icon class="icons-santander">save_alt</mat-icon>
+                                <span style="color: #767676;">Descargar cupon</span>
+                            </button>
+                            </mat-menu>
+                        </td>
+                    </ng-container>
+
+                    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+                    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+                </table>
+                <div class="download-box">
+                    <mat-icon>save_alt</mat-icon>
+                    <p>Descargar cuotas pagadas</p>
+                </div>
+            </div>
+        </mat-expansion-panel>
+    </mat-accordion>
+    <mat-accordion>
+        <mat-expansion-panel>
+            <mat-expansion-panel-header>
+                <mat-panel-title>
+                    <div class="historico-info">
+                        <div class="historico-info1">
+                            <p><strong>Toyota Rav4 2021</strong></p>
+                            <p>Patente: BB-BB 21</p>
+                        </div>
+                        <div class="historico-info2">
+                            <p>Última cuota pagada</p>
+                            <p>01/09/2021</p>
+                        </div>
+                    </div>
+
+                </mat-panel-title>
+                <!-- <mat-panel-description>
+                  Currently I am Chris
+              </mat-panel-description> -->
+            </mat-expansion-panel-header>
+            <div class="historico-table">
+                <table mat-table [dataSource]="dataSource" matSort>
+
+                    <!-- N Cuotas Column -->
+                    <ng-container matColumnDef="numCuota">
+                        <th mat-header-cell *matHeaderCellDef mat-sort-header> N° Cuota</th>
+                        <td mat-cell *matCellDef="let element"> {{element.numCuota}} </td>
+                    </ng-container>
+
+                    <!-- Fecha de pago Column -->
+                    <ng-container matColumnDef="fechaPago">
+                        <th mat-header-cell *matHeaderCellDef mat-sort-header> Fecha de Pago </th>
+                        <td mat-cell *matCellDef="let element"> {{element.fechaPago}} </td>
+                    </ng-container>
+
+                    <!-- Monto Pagado Column -->
+                    <ng-container matColumnDef="monto">
+                        <th mat-header-cell *matHeaderCellDef mat-sort-header> Monto pagado </th>
+                        <td mat-cell *matCellDef="let element"> ${{element.monto}} </td>
+                    </ng-container>
+
+                    <!-- Symbol Column -->
+                    <ng-container matColumnDef="symbol">
+                        <th mat-header-cell *matHeaderCellDef mat-sort-header> </th>
+                        <td mat-cell *matCellDef="let element">
+                            <mat-icon class="icons-santander" [matMenuTriggerFor]="menu" #menuTrigger>more_vert</mat-icon>
+                            <!-- <button mat-button [matMenuTriggerFor]="menu" #menuTrigger>Menu</button> -->
+                            <mat-menu #menu="matMenu">
+                                <button mat-menu-item (click)="openDialog()">
+                                <mat-icon class="icons-santander">insert_drive_file</mat-icon>
+                                <span style="color: #767676;">Ver cupón</span>
+                              </button>
+                                <button mat-menu-item>
+                                <mat-icon class="icons-santander">save_alt</mat-icon>
+                                <span style="color: #767676;">Descargar cupon</span>
+                            </button>
+                            </mat-menu>
+                        </td>
+                    </ng-container>
+
+                    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+                    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+                </table>
+                <div class="download-box">
+                    <mat-icon>save_alt</mat-icon>
+                    <p>Descargar cuotas pagadas</p>
+                </div>
+            </div>
+        </mat-expansion-panel>
+    </mat-accordion>
+    <mat-accordion>
+        <mat-expansion-panel>
+            <mat-expansion-panel-header>
+                <mat-panel-title>
+                    <div class="historico-info">
+                        <div class="historico-info1">
+                            <p><strong>Toyota Rav4 2021</strong></p>
+                            <p>Patente: BB-BB 21</p>
+                        </div>
+                        <div class="historico-info2">
+                            <p>Última cuota pagada</p>
+                            <p>01/09/2021</p>
+                        </div>
+                    </div>
+
+                </mat-panel-title>
+                <!-- <mat-panel-description>
+                Currently I am Chris
+            </mat-panel-description> -->
+            </mat-expansion-panel-header>
+            <div class="historico-table">
+                <table mat-table [dataSource]="dataSource" matSort>
+
+                    <!-- N Cuotas Column -->
+                    <ng-container matColumnDef="numCuota">
+                        <th mat-header-cell *matHeaderCellDef mat-sort-header> N° Cuota</th>
+                        <td mat-cell *matCellDef="let element"> {{element.numCuota}} </td>
+                    </ng-container>
+
+                    <!-- Fecha de pago Column -->
+                    <ng-container matColumnDef="fechaPago">
+                        <th mat-header-cell *matHeaderCellDef mat-sort-header> Fecha de Pago </th>
+                        <td mat-cell *matCellDef="let element"> {{element.fechaPago}} </td>
+                    </ng-container>
+
+                    <!-- Monto Pagado Column -->
+                    <ng-container matColumnDef="monto">
+                        <th mat-header-cell *matHeaderCellDef mat-sort-header> Monto pagado </th>
+                        <td mat-cell *matCellDef="let element"> ${{element.monto}} </td>
+                    </ng-container>
+
+                    <!-- Symbol Column -->
+                    <ng-container matColumnDef="symbol">
+                        <th mat-header-cell *matHeaderCellDef mat-sort-header> </th>
+                        <td mat-cell *matCellDef="let element">
+                            <mat-icon class="icons-santander" [matMenuTriggerFor]="menu" #menuTrigger>more_vert</mat-icon>
+                            <!-- <button mat-button [matMenuTriggerFor]="menu" #menuTrigger>Menu</button> -->
+                            <mat-menu #menu="matMenu">
+                                <button mat-menu-item (click)="openDialog()">
+                                  <mat-icon class="icons-santander">insert_drive_file</mat-icon>
+                                  <span style="color: #767676;">Ver cupón</span>
+                                </button>
+                                <button mat-menu-item>
+                                  <mat-icon class="icons-santander">save_alt</mat-icon>
+                                  <span style="color: #767676;">Descargar cupon</span>
+                              </button>
+                            </mat-menu>
+                        </td>
+                    </ng-container>
+
+                    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+                    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+                </table>
+                <div class="download-box">
+                    <mat-icon>save_alt</mat-icon>
+                    <p>Descargar cuotas pagadas</p>
+                </div>
+            </div>
+        </mat-expansion-panel>
+    </mat-accordion>
+</div>

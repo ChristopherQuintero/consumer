@@ -1,0 +1,91 @@
+$santander-color: #ec0000;
+#header {
+    height: 56px;
+    background: #f6f7f9;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 10px 10px rgba(225, 225, 226, 0.8);
+}
+
+.logo {
+    display: flex;
+    flex-basis: 50%;
+    margin-left: 20px;
+    color: black;
+}
+
+.logo img {
+    width: 265px;
+    height: 28px;
+    margin-right: 10px;
+}
+
+.logo h1 {
+    font-weight: bold;
+    font-size: 16px;
+    color: $santander-color;
+    border-left: 2px solid $santander-color;
+    padding-left: 8px;
+    line-height: 33px;
+    letter-spacing: 0.3px;
+}
+
+
+/* #menu {
+    flex-grow: 1;
+    flex-basis: 30%;
+    height: 100%;
+    padding-right: 10px;
+} */
+
+#box-user {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    height: 100%;
+    //border-left: 1px solid $santander-color;
+    #user-info {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        align-items: end;
+        line-height: 20px;
+    }
+    #user-info #name {
+        font-size: 14px;
+        font-weight: bold;
+    }
+    #user-info #date {
+        font-size: 12px;
+    }
+    #user {
+        margin-left: 20px;
+        margin-right: 8px;
+        align-self: center;
+        #user-info-img {
+            border: 1px solid #DEEDF2;
+            color: #1BB3BC;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            background-color: rgb(216, 216, 216);
+        }
+    }
+    #logout {
+        background-color: #444444;
+        width: 56px;
+        line-height: 56px;
+        text-align: center;
+        img {
+            cursor: pointer;
+            width: 20px;
+            height: 20px;
+        }
+    }
+}

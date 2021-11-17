@@ -1,0 +1,26 @@
+<section id="layout">
+    <div id="tabs">
+        <mat-tab-group animationDuration="0ms" mat-align-tabs="center">
+            <mat-tab label="MIS CRÉDITOS">
+                <app-creditos></app-creditos>
+            </mat-tab>
+            <mat-tab label="CUOTAS">
+                <app-cuotas></app-cuotas>
+            </mat-tab>
+            <mat-tab label="HISTORICO DE PAGO">
+                <app-historico></app-historico>
+            </mat-tab>
+        </mat-tab-group>
+    </div>
+    <div id="campaña">
+        <img src="../../assets/campaña.PNG" alt="">
+    </div>
+    <div class="informativo">
+        <p>Infórmese sobre la garantía estatal de los depósitos en su banco o en www.cmfchile.cl / Infórmese sobre las entidades autorizadas para emitir Tarjetas de Pago en el país, quienes se encuentran inscritas en los Registros de Emisores de Tarjetas
+            que lleva la CMF, en www.cmfchile.cl.
+        </p>
+    </div>
+</section>
+<ngx-spinner bdColor="rgba(255, 255, 255, 0.8)" template="<img src='../../../assets/loader.png' width='300px'/>">
+    <p style="font-size: 20px; color: #444444">Cargando...</p>
+</ngx-spinner>
